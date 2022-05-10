@@ -4,15 +4,15 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 html {
   font-size: 100%;
 } /*16px*/
 
 body {
-  background: #90b4ce;
-  font-family: "Play", sans-serif;
+  background: #eef0eb;
+  font-family: 'Play', sans-serif;
   font-weight: 400;
   line-height: 1.75;
   color: #000000;
@@ -27,7 +27,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Play", sans-serif;
+  font-family: 'Play', sans-serif;
   font-weight: 400;
   line-height: 1.3;
 }
@@ -68,7 +68,7 @@ img {
   width: 100%;
 }
 .slide-container {
-  border: 5px solid blue;
+  border: 3px solid #284b63;
   width: 80vw;
   margin: 0 auto;
   height: 65vh;
@@ -111,7 +111,7 @@ img {
 }
 .slide:nth-child(3) {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./img-2.jpeg") center/cover no-repeat;
+    url('./img-2.jpeg') center/cover no-repeat;
 }
 .btn-container {
   display: flex;
@@ -127,7 +127,7 @@ img {
   margin: 0 0.25rem;
   text-transform: capitalize;
   letter-spacing: 2px;
-  color: var(--clr-grey-5);
+  color: #284b63;
   transition: var(--transition);
 }
 .prevBtn:hover,
